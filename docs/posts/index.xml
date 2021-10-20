@@ -6,17 +6,34 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Mon, 18 Oct 2021 13:19:48 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 20 Oct 2021 21:28:48 +0800</lastBuildDate>
         <atom:link href="https://ivanfoong.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
-            <title>First Post</title>
-            <link>https://ivanfoong.github.io/posts/first-post/</link>
-            <pubDate>Mon, 18 Oct 2021 13:19:48 +0000</pubDate>
+            <title>Setup dev env with devcontainer</title>
+            <link>https://ivanfoong.github.io/posts/setup-dev-env-with-devcontainer/</link>
+            <pubDate>Wed, 20 Oct 2021 21:28:48 +0800</pubDate>
             
-            <guid>https://ivanfoong.github.io/posts/first-post/</guid>
-            <description></description>
-            <content type="html"><![CDATA[]]></content>
+            <guid>https://ivanfoong.github.io/posts/setup-dev-env-with-devcontainer/</guid>
+            <description>Setup Development Environment with Devcontainer Why devcontainer TBD Setting up devcontainer with multiple other services in docker with docker-compose
+Setup  Install VSCode with Remote - Containers extension Create .devcontainer/library-scripts/common-debian.sh Create .devcontainer/library-scripts/docker-debian.sh Create .devcontainer/Dockerfile Create .devcontainer/docker-compose.yml Create .devcontainer/devcontainer.json  Usage Start devcontainer via https://code.visualstudio.com/docs/remote/containers#_quick-start-openan-existing-folder-in-a-container After a while the devcontainer should have been build and ready to start developing</description>
+            <content type="html"><![CDATA[<h1 id="setup-development-environment-with-devcontainer">Setup Development Environment with Devcontainer</h1>
+<h2 id="why-devcontainer">Why devcontainer</h2>
+<p>TBD
+Setting up devcontainer with multiple other services in docker with docker-compose</p>
+<h2 id="setup">Setup</h2>
+<ol>
+<li>Install VSCode with <code>Remote - Containers</code> extension</li>
+<li>Create <code>.devcontainer/library-scripts/common-debian.sh</code></li>
+<li>Create <code>.devcontainer/library-scripts/docker-debian.sh</code></li>
+<li>Create <code>.devcontainer/Dockerfile</code></li>
+<li>Create <code>.devcontainer/docker-compose.yml</code></li>
+<li>Create <code>.devcontainer/devcontainer.json</code></li>
+</ol>
+<h2 id="usage">Usage</h2>
+<p>Start devcontainer via <a href="https://code.visualstudio.com/docs/remote/containers#_quick-start-openan-existing-folder-in-a-container">https://code.visualstudio.com/docs/remote/containers#_quick-start-openan-existing-folder-in-a-container</a>
+After a while the devcontainer should have been build and ready to start developing</p>
+]]></content>
         </item>
         
     </channel>
